@@ -3,8 +3,8 @@ public class Administrador extends Empregado{
     
     private double AjudaDeCusto;
     
-    public Administrador(String n,String e, String t, String cs, double sb, double i, double ac){
-        super(n,e,t,cs,sb,i);
+    public Administrador( String cs, double sb, double i,String n,String e, String t, double ac){
+        super(cs,sb,i,n,e,t);
         this.setAjudaDeCusto(ac);
     }
     

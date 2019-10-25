@@ -4,9 +4,9 @@ public class Operario extends Empregado{
     private double ValorProducao;
     private double Comissao;
     
-    public Operario (String n,String e, String t, String cs, double sb, double i, double vp, double c){
+    public Operario ( String cs, double sb, double i,String n,String e, String t, double vp, double c){
         
-        super(n,e,t,cs,sb,i);
+        super(cs,sb,i,n,e,t);
         this.setValorProducao(vp);
         this.setComissao(c);
     }
